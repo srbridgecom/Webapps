@@ -1,0 +1,1269 @@
+/*------------------------------------------------------------------
+[Table of contents]
+1. Body
+	[2. Header ]
+		[ 2.1 Logo ]
+		[ 2.1 Mainmenu ]
+	[2. Slider ]
+		[ 2.1 Slider-Text ]
+		[ 2.2 Fawesome-Control ]
+	[3. About ]
+		[ 3.1 About-Text ]
+	[4. Team ]
+		[ 4.1 Single-Team-Text ]
+		[ 4.2 Strat-Button ]
+	[5. What-We-Do ]
+		[ 5.1 What-We-Do-text ]
+		[ 5.2 Carousel_2_left ]
+	[6. Services ]
+	[7. Percent ]
+	[8. What ]
+		[ 8.1 Work-Menu ]
+		[ 8.2 Work-Item ]
+		[ 8.3 Popup-Text ]
+	[ 9. Brand-Logo ]
+	[ 10. Testimonials ]
+	[ 11. Blog ]
+		[ 11.1 Blog-Text ]
+		[ 11.2 Blog-All-Veiw ]
+	[12. Client ]
+	[ 13. Contact ]
+	[ 14 Happy ]
+	[ 15 Contact-Icon ]
+	[ 16 Contact-Bottom ]
+	[ 17 Footer ]
+		13.1 Footer-Top
+		13.2 Footer-Bottom
+		13.2.1 Footer-Bottom-Icon
+
+	/*ScrollUp*/
+/*-------------------------------------------------------------------*/
+
+
+.alignleft {
+  float:left;
+  margin-right:15px;
+  margin-bottom: 15px;
+}
+
+.alignright {
+  float:right;
+  margin-left:15px;
+  margin-bottom: 15px;
+}
+
+.aligncenter {
+  display:block;
+  margin:0 auto 15px;
+}
+
+a:focus {
+  outline:0px solid;
+}
+
+.nav li a:focus, .nav li a:hover {
+  background-color: transparent;
+}
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+.fix {
+  overflow:hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+  text-transform: uppercase;
+}
+
+p{
+	font-size:13px;
+	color:#777777;
+}
+
+a {
+  color:#fff;
+  text-decoration:none;
+  transition: all 300ms ease-out 0s;
+  text-transform: uppercase;
+}
+
+*{
+  transition: all 300ms ease-out 0s;
+}
+
+a:hover{
+  text-decoration:none;
+  color:#fff;
+}
+
+.section_padding {
+  padding: 120px 0;
+}
+
+.section-title h1 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section-title h1 {
+  padding-bottom: 15px;
+}
+
+.section-title p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+
+
+/*------------------------------------------------------------------
+[1. body ]
+--------------------------------------------------------------------*/
+
+body {
+	background: #fff;
+	color: #626262;
+	font-size: 15px;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+    position:relative;
+}
+
+
+
+/*------------------------------------------------------------------
+[2. Header ]
+--------------------------------------------------------------------*/
+
+.sticky-wrapper {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+
+
+/*-------------------
+[ 2.1 Logo ]
+---------------------*/
+
+.logo {
+  max-width: 109px;
+  padding-top: 20px;
+  float: left;
+}
+/*-------------------
+[ 2.1 Mainmenu ]
+---------------------*/
+
+.slicknav_menu {
+	display:none;
+}
+
+#nav {
+  float: right;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  float: left;
+  padding: 15px 0;
+}
+
+#nav a {
+  color: #fff;
+  font-size: 13px;
+  margin-right: 40px;
+  padding: 13px 0;
+  transition: none;
+}
+
+#nav li.active a {
+  border-bottom: 2px solid #e6af2a;
+}
+
+.nav.nav-tabs {
+  border-bottom: 0 none;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  background:none;
+  border-width: 0;
+}
+
+.nav-tabs > li > a {
+  border: 0 none;
+  border-radius: 0;
+}
+
+#nav a:hover{
+  border-bottom:2px solid #e6af2a;
+  background:none;
+}
+
+/*jquery-sticky-menu*/
+.is-sticky header {
+  background: #fff none repeat scroll 0 0;
+}
+
+.is-sticky #nav a{
+  color:#777777;
+}
+
+
+
+/*------------------------------------------------------------------
+[2. Slider ]
+--------------------------------------------------------------------*/
+
+html,body{height:100%;}
+.slider_area .item::after {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.slider_area .item {
+  position: relative;
+}
+
+.slider_area{position:relative;}
+
+.slider_area,.slider_area div{height:100%;}
+
+.slider_bg {
+  width:100%;
+  height:100%;
+  top:0;left:0;
+  background-size: cover;
+  position:fixed;
+}
+
+.slide-1{background-image:url(images/slider/slide-bg-1.jpg)}
+.slide-2{background-image:url(images/slider/slide-bg-2.jpg)}
+.slide-3{background-image:url(images/slider/slide-bg-3.jpg)}
+
+
+
+/*-------------------
+[ 2.1 Slider-Text ]
+---------------------*/
+
+.single_slide .slide_text {
+  color: #fff;
+  position: relative;
+  z-index: 999;
+}
+
+.table {
+  display: table;
+  width: 100%;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.tableRight{
+  width: auto;
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+.slide_text h1 {
+  color: #fff;
+  font-family: "Oswald",sans-serif;
+  font-size: 35px;
+  letter-spacing: 2px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+.bg-yellow {
+  background: #e6af2a none repeat scroll 0 0;
+  height: 2px !important;
+  margin: 14% 0;
+  width: 30px;
+}
+
+.bg-white {
+  color : gold;
+}
+
+.slide-text p{
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.digital{
+	border: 2px solid #fff;
+	color: #fff;
+	font-size: 12px;
+	padding: 8px 20px 9px;
+	letter-spacing: 2px;
+	margin-top:30px;
+	display:inline-block;
+}
+
+.digital:hover{
+  background:#e6af2a;
+  border:2px solid #e6af2a;
+}
+
+
+
+/*-------------------
+[ 2.2 Fawesome-Control ]
+---------------------*/
+
+.fawesome-control {
+  color: #fff;
+  font-size: 50px;
+  line-height: 50px;
+  margin-top: -25px;
+  position: absolute;
+  top: 40%;
+}
+
+.fawesome-control.left, .fawesome-control.right {
+  width: 35px;
+  z-index: 2;
+}
+
+.fawesome-control.left{left: 50px;}
+
+.fawesome-control.right{right: 50px;}
+
+.carousel-inner .item.active .table-cell {
+    -webkit-animation: fadeInUp 1100ms ease-in-out;
+    animation: fadeInUp 1100ms ease-in-out;
+}
+
+
+
+/*------------------------------------------------------------------
+[3. About ]
+--------------------------------------------------------------------*/
+
+.about {
+  padding-bottom: 0;
+}
+
+.about_title h1 {
+  text-align: center;
+}
+
+.number_text {
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+/*-------------------
+[ 3.1 About-Text ]
+---------------------*/
+
+.number_text h1 {
+  font-weight: 300;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.yellow_number {
+  bottom: -60px;
+  color: #7f7f7f;
+  position: absolute;
+  left: 44%;
+}
+
+.black_number {
+  color: #f7d23d;
+}
+
+.about_text:hover .black_number {
+  transform: translateY(-100%);
+}
+
+.about_text:hover .yellow_number {
+  transform: translateY(-150%);
+}
+
+.black_text{
+  font-size: 23px;
+  line-height: 28px;
+  color:#000000;
+}
+
+.about_text:hover .black_text {
+  text-decoration: line-through;
+}
+
+.about_text p {
+  line-height: 22px;
+  margin: 20px 0;
+}
+
+.margin_eight {
+  margin: 5% 0;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------
+[4. Team ]
+--------------------------------------------------------------------*/
+
+.team_area {
+  padding-top: 0;
+}
+
+.team_title p{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 26px;
+	color:#7f7f7f;
+	text-align:center;
+}
+
+.team_text {
+  margin-top: 8%;
+  overflow: hidden;
+}
+
+
+
+/*-------------------
+[ 4.1 Single-Team-Text ]
+---------------------*/
+
+.team_single_text {
+  border-top: 1px solid #e5e5e5;
+  padding: 32px 25px 0px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  bottom: 0;
+  margin-bottom:40px;
+}
+
+.span_first {
+  font-weight: 600;
+}
+
+.team_single_text span {
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.bg-yellow.team_yellow {
+  margin: 25px auto;
+}
+
+.team_icon i {
+  font-size: 20px;
+  margin: 15px 15px 25px;
+  color: #E6AF2A;
+  transition: all 0.3s ease 0s;
+}
+
+.team_icon  a:hover,.social_icon i :hover {
+  opacity: 0.5;
+}
+
+.team_text:hover.team_text img {
+  transform: scale(1.1);
+  opacity:.5;
+}
+
+.team_text:hover .team_single_text {
+  background: #fff none repeat scroll 0 0;
+  bottom: 110px;
+}
+
+.team_single_text > p {
+    opacity: 0;
+}
+
+.team_text:hover .team_single_text > p {
+    opacity: 1;
+}
+
+
+
+/*-------------------
+[ 4.2 Strat-Button ]
+---------------------*/
+
+.start_now p {
+  color: #000;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.start_now a {
+  border: 3px solid #000;
+  color: #000;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 15px 30px;
+}
+
+.start_now.text-center a:hover, .blog {
+  background: #e7b02d none repeat scroll 0 0;
+  color: #fff;
+  border: 3px solid #e7b02d;
+}
+
+
+
+/*------------------------------------------------------------------
+[5. What-We-Do ]
+--------------------------------------------------------------------*/
+
+.what_do.section_padding {
+  background: #e6af2a none repeat scroll 0 0;
+  color: #fff;
+}
+
+.blog-title p ,.what_do p {
+  color: #fff;
+}
+
+
+
+/*-------------------
+[ 5.1 What-We-Do-text ]
+---------------------*/
+
+.do_text i {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.do_text a h5 {
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.do_text a h5:hover{
+  color:#ddd;
+}
+
+.do_text p,.believe ,.service_text p:first-child,.strong_text p,.single_counter span,.plan_number p,input, textarea ,required,.menu_item ul li,.popup_text span,.popup_text p{
+  text-transform: uppercase;
+}
+
+.do_text p {
+  color: #000000;
+  display: block;
+  line-height: 20px;
+  margin-top: 15px;
+}
+
+
+
+/*-------------------
+[ 5.2 Carousel_2_left ]
+---------------------*/
+
+.carousel_2_left {
+  left: -75px !important;
+}
+
+.carousel_2_right {
+  right: -75px !important;
+}
+
+
+
+/*------------------------------------------------------------------
+[6. Services ]
+--------------------------------------------------------------------*/
+
+.col-text-center{
+	float: none !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.row-margin-bottom {
+  margin-bottom: 20%;
+}
+
+.single_sercives_icon {
+  border: 1px solid #E7B02D;
+  border-radius: 50%;
+  height: 100px;
+  margin-bottom: 30px;
+  margin-left: 30%;
+  position: relative;
+  width: 100px;
+}
+
+.single_sercives_icon i {
+  color: #E7B02D;
+  font-size: 54px;
+  padding-top: 22%;
+}
+
+.single_sercives_icon::after {
+  background: #E7B02D none repeat scroll 0 0;
+  border-radius: 50%;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(0);
+  transition: transform 0.2s ease 0s, opacity 0.2s ease 0s;
+  width: 100%;
+}
+
+.single_sercives:hover .single_sercives_icon i{
+  color:#fff;
+}
+
+.single_sercives:hover .single_sercives_icon:after{
+  transform: scale(1);
+  z-index:-1;
+}
+
+.block-title a h4 {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.block-title a h4:hover {
+  color: #E7B02D;
+}
+
+
+
+/*------------------------------------------------------------------
+[7. Percent ]
+--------------------------------------------------------------------*/
+
+.section_padding.text-center.tab_padding,.client.what_do.black-background{
+	background:#000;
+}
+
+#counter_h,#counter_happy {
+  color: #000;
+  font-family: "Oswald",sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 60px;
+}
+
+.single_counter span {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.chart {
+  border-radius: 50%;
+  display: inline-block;
+  height: 120px;
+  position: relative;
+  text-align: center;
+  width: 120px;
+  margin: 0 0 30px;
+}
+
+.percent::after {
+  content: "%";
+  font-family: "Oswald",sans-serif;
+  font-weight: 100;
+}
+
+.chart canvas {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.percent {
+  display: inline-block;
+  font-family: "Oswald",sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 125px;
+  z-index: 2;
+}
+
+.percent_text h5 {
+  color:#fff;
+  margin-bottom: 10px;
+}
+
+
+
+/*------------------------------------------------------------------
+[8. What ]
+--------------------------------------------------------------------*/
+
+.how_to_work.section_padding.gallery {
+  padding-bottom: 0;
+}
+
+
+
+/*-------------------
+[ 8.1 Work-Menu ]
+---------------------*/
+
+.work_text.section-title h1 {
+  padding-bottom: 15px;
+}
+
+.work_text.section-title p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.menu_item ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  margin-top:25px;
+}
+
+.menu_item ul li {
+  color: #777777;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-size: 13px;
+  margin-left: 25px;
+  margin-right: 40px;
+  padding: 5px 0;
+}
+
+.menu_item ul li.active,.menu_item ul li:hover{
+ border-bottom:1px solid #000;
+}
+
+
+
+/*-------------------
+[ 8.2 Work-Item ]
+---------------------*/
+
+.gallery_item {
+  margin-top: 40px;
+  position: relative;
+}
+
+.single_items::after {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.single_items {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.4s ease-in-out 0s;
+  width: 25%;
+  cursor: pointer;
+}
+
+.single_items img{
+  width:100%;
+}
+
+.popup_text {
+  left: 20%;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  z-index: 5;
+}
+
+.single_items:hover.single_items:after {
+    transition: all 0.4s ease-in-out;
+	opacity:0.7;
+	z-index:2;
+}
+
+.single_items:hover .popup_text {
+	opacity:1;
+}
+
+.single_items:hover.single_items img{
+	transform:scale(1.2);
+}
+
+
+
+/*-------------------
+[ 8.3 Popup-Text ]
+---------------------*/
+
+.popup_text p{
+  letter-spacing: 4px;
+  font-weight: 400;
+  color: #e3e3e3;
+  font-size: 12px;
+}
+
+.popup_text span{
+	font-size: 11px;
+	letter-spacing: 3px;
+	color: #aeaeae;
+}
+
+.popup_image img {
+  height: 100%;
+  width: 100%;
+}
+
+.modal-dialog {
+  height: auto;
+  width: 60%;
+  margin-top: 100px;
+}
+
+.modal-footer {
+  background: #000 none repeat scroll 0 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.modal-footer {
+  border-top: 0 none;
+  padding: 0;
+}
+
+.modal-footer i {
+  color: #FBC011;
+  font-size: 45px;
+}
+
+.modal-footer:hover,.modal-footer:hover i{
+  background: #FBC011 none repeat scroll 0 0;
+  color:#fff;
+}
+
+
+
+/*------------------------------------------------------------------
+[ 9. Brand-Logo ]
+--------------------------------------------------------------------*/
+
+.brand_logo {
+  background: #eee none repeat scroll 0 0;
+  padding: 80px 0;
+}
+
+#brand_logo img {
+  padding: 0 35px;
+}
+
+
+
+/*------------------------------------------------------------------
+[ 10. Testimonials ]
+--------------------------------------------------------------------*/
+
+.testimonials_title h1 {
+  padding-bottom: 50px;
+}
+
+.testimonials {
+  background: #000 none repeat scroll 0 0;
+  color: #fff;
+  padding: 65px 0;
+}
+
+.testimonials p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+
+.testimonials h4 {
+  color: #737373;
+  font-family: "Oswald",sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+.testimonials_indicators {
+  bottom: -15px;
+}
+
+
+
+/*------------------------------------------------------------------
+[ 11. Blog ]
+--------------------------------------------------------------------*/
+
+.single_blog {
+  background: #ffffff none repeat scroll 0 0;
+  margin-bottom: 10px;
+}
+
+.blog_text {
+  padding: 20px;
+  text-align: left;
+}
+
+.blog_img a:after {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform:scale(0);
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+
+.blog_img a {
+  background-color: #4d4d4d;
+  position: relative;
+  width: auto;
+  display:block;
+}
+
+.blog_img a:hover:after{opacity:.1}
+
+.blog_img a:hover:after  {
+    transform: scale(1);
+}
+
+
+
+/*-------------------
+[ 11.1 Blog-Text ]
+---------------------*/
+
+.blog_text h5 a {
+  color: #000;
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 20px 0 0;
+}
+
+.blog_text span{
+  color: #797979;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.blog_text p {
+  padding: 22px 0 0;
+}
+
+
+
+/*-------------------
+[ 11.2 Blog-All-Veiw ]
+---------------------*/
+
+.all_veiw {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.all_veiw a, .btn-black {
+  background: #000 none repeat scroll 0 0;
+  border: 2px solid #000;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 10px 14px;
+}
+
+.all_veiw a:hover,.btn-black:hover{
+  background:#E7B02D;
+  color:#fff;
+}
+
+
+
+/*------------------------------------------------------------------
+[12. Client ]
+--------------------------------------------------------------------*/
+
+.client_text img {
+  padding: 0 35px;
+}
+
+
+
+/*------------------------------------------------------------------
+[ 13. Contact ]
+--------------------------------------------------------------------*/
+
+.contact_title h1 {
+  padding-bottom: 100px;
+}
+
+.contact_icon i {
+  color: #e6af2a;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.contact_icon p {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+input, textarea {
+  border: 1px solid #dfdfdf;
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin: 0 0 20px;
+  padding: 8px 15px;
+  resize: none;
+  width: 100%;
+}
+
+input:focus,textarea:focus {
+  border: 1px solid #e6af2a;
+}
+
+.required {
+  font-size: 11px;
+  letter-spacing: 1px;
+  float: left;
+}
+
+.btn-black {
+  color: #fff;
+  float: right;
+  padding: 7px 20px 8px;
+  width: auto;
+}
+
+
+
+/*------------------------------------------------------------------
+[ 14 Happy ]
+--------------------------------------------------------------------*/
+.happy {
+  background: #e6af2a none repeat scroll 0 0;
+  color: #fff;
+}
+#counter_happy {
+  color: #fff;
+}
+.happy_counter i, .happy_counter span {
+  color: #fff;
+}
+
+
+
+/*------------------------------------------------------------------
+[ 15 Contact-Icon ]
+--------------------------------------------------------------------*/
+
+.contact_section_padding{padding:50px 0;}
+
+
+
+/*------------------------------------------------------------------
+[ 16 Contact-Bottom ]
+--------------------------------------------------------------------*/
+
+.bottom_icon i{font-size:25px;}
+
+.contact-icon{
+  background: #f4f4f4 none repeat scroll 0 0;
+}
+
+.social_icon i {
+  color: #DFA92D;
+  font-size: 22px;
+  margin: 0 25px;
+}
+
+.social_icon i:hover {
+  opacity:.5;
+}
+
+
+
+/*------------------------------------------------------------------
+[ 17 Footer ]
+--------------------------------------------------------------------*/
+
+footer {
+  background: rgb(37, 37, 37) none repeat scroll 0 0;
+  padding: 15px 0;
+}
+
+.footer_copyright img {
+  max-width: 100px;
+  float: right;
+}
+
+.footer_copyright p {
+  float: left;
+  margin: 0;
+  padding-top: 10px;
+}
+
+
+
+/*ScrollUp*/
+#scrollUp {
+  background-color: #252525;
+  padding: 5px 8px;
+  right: 45px;
+  text-align: center;
+  text-decoration: none;
+  top: 85%;
+}
+
+#scrollUp:hover{
+  opacity:.6;
+}
+
+.scrollToTop i {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 6px;
+}
+
+
+
+/*------------------------------------------------------------------
+[ 18 Extra ]
+--------------------------------------------------------------------*/
+
+/*------ Banners within index -------*/
+
+.banner1 {
+    padding: 0 0;
+    background: url(images/fsws.jpg) no-repeat center center;
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    background-attachment: fixed;
+
+}
+
+.banner2 {
+    padding: 0 0;
+    background: url(images/slider/code.gif) no-repeat center center;
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    background-attachment: fixed;
+
+}
+
+.banner3 {
+    padding: 0 0;
+    background: url(images/slider/slidebanner.jpg) no-repeat center top;
+    width: 100%;
+    height: 100px;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.headerImage {
+    padding: 0 0;
+    background: url(images/slider/code.gif) no-repeat center center;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+
+/* added to center work/portfolio section  */
+.row-centered {
+   text-align:center;
+}
+
+/* added to center work/portfolio section  */
+.col-centered {
+   display:inline-block;
+   float:none;
+   /* reset the text-align */
+   text-align:left;
+   /* inline-block space fix */
+   margin-right: 30px;
+}
+
+/* added for work back goung color box  */
+.light_grey {
+	background-color: #D3D3D3;
+}
+
+
+
+/*--------------------------------------------------------
+---------------------------[End ]-----------------------
+---------------------------------------------------------*/
