@@ -1,0 +1,695 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent
+}
+body {
+	line-height:1
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block
+}
+nav ul {
+	list-style:none
+}
+blockquote, q {
+	quotes:none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none
+}
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent
+}
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none
+}
+mark {
+	background-color:#ff9;
+	color:#000;
+	font-style:italic;
+	font-weight:bold
+}
+del {
+	text-decoration:line-through
+}
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+hr {
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0
+}
+input, select {
+	vertical-align:middle
+}
+html, body {
+	margin:0;
+	padding:0;
+	height:100%
+}
+body {
+	text-rendering:optimizeLegibility;
+	color :#666;
+	font-size :15px;
+	line-height :1.5;
+	font-family: Arial,"Helvetica Neue",sans-serif;
+    line-height: 19px;
+    word-wrap: break-word;
+	background:rgb(255,255,255) url(http://powercomm.ryanjb.com/images/tilebg.jpg) repeat center
+}
+h1, .nav ul li {
+	font-family:Arial, sans-serif
+}
+.largeprint {
+	font-size:16px
+}
+.smallprint {
+	font-size:12px
+}
+.examplecolumn {
+	height:40px
+}
+.examplecolumn2 {
+	height:400px
+}
+.subhead {
+	color:#15b953
+}
+.introtitle {
+	padding-top:70px;
+	padding-bottom:50px
+}
+.introsection {
+	padding-bottom:50px
+}
+.post {
+	border-top:1px solid #747474;
+	padding-bottom:30px;
+	margin-top:60px
+}
+.date {
+	border-top:3px solid #747474;
+	padding-top:15px
+}
+.postcontent {
+	padding-top:18px
+}
+.license {
+	padding-top:50px;
+	padding-bottom:30px;
+	color:#fff
+}
+.multicolumn {
+	-moz-column-count:3;
+	-moz-column-gap:3em;
+	-webkit-column-count:3;
+	-webkit-column-gap:3em
+}
+img[alt="Lily"] {
+	-webkit-transition:-webkit-transform 0.3s ease-in-out;
+	-moz-transition:-moz-transform 0.3s ease-in-out;
+	-o-transition:-o-transform 0.3s ease-in-out;
+	transition:transform 0.3s ease-in-out
+}
+@font-face {
+    font-family: 'CuprumFFURegular';
+    src: url('http://powercomm.ryanjb.com/css_image/Cuprum-webfont.eot?') format('eot'),
+         url('http://powercomm.ryanjb.com/css_image/Cuprum-webfont.woff') format('woff'),
+         url('http://powercomm.ryanjb.com/css_image/Cuprum-webfont.ttf') format('truetype'),
+         url('http://powercomm.ryanjb.com/css_image/cuprum-webfont.svg#webfontYyekB2G0') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+li {
+	margin-bottom:6px
+}
+blockquote {
+	border-left:1px solid #c1c1c1;
+	color:#747474;
+	padding-left:15px;
+	margin-left:-15px
+}
+section h1 {
+	font-size:40px;
+	margin-bottom:24px;
+	font-family:"CuprumFFURegular", Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:#d6cfbe;
+	line-height: 40px;
+	text-transform:uppercase
+}
+section section h1 {
+	font-size:24px;
+	line-height: 24px;
+	margin-top:10px;
+	margin-bottom:24px;
+	font-family:"CuprumFFURegular", Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:#938055;
+	text-transform:uppercase
+}
+a img {
+	border:none
+}
+a {
+	color:#938055;
+	-webkit-transition:color 1s ease-in-out;
+	-o-transition:color 1s ease-in-out;
+	-moz-transition:color 1s ease-in-out;
+	transition:color 1s ease-in-out
+}
+a:hover {
+	color:#666
+}
+img {
+max-width:100% -webkit-transition:-webkit-transform 0.550s ease-in-out
+}
+.container {
+	padding-left:20px;
+	padding-right:20px
+}
+.row {
+	width:100%;
+	max-width:90%;
+	margin:0 auto;
+	overflow:hidden
+}
+.onecol, .twocol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
+	margin-right:3.8%;
+	float:left
+}
+.onecol {
+	width:4.85%
+}
+.twocol {
+	width:13.5%
+}
+.threecol {
+	margin-right:1%;
+	float:left;
+	width:24%
+}
+.fourcol {
+	width:30.8%
+}
+.fivecol {
+	width:39.45%
+}
+.sixcol {
+	width:48.1%
+}
+.sevencol {
+	width:56.75%
+}
+.eightcol {
+	width:65.4%
+}
+.ninecol {
+	width:74.05%
+}
+.tencol {
+	width:82.7%
+}
+.elevencol {
+	width:91.35%
+}
+.twelvecol {
+	width:100%;
+	float:left
+}
+.last {
+	margin-right:0px
+}
+img, object, embed {
+	max-width:100%;
+	padding-bottom:8px
+}
+header.page {
+	position:fixed;
+	top:20px;
+	left:60px;
+	width:160px;
+	height:auto;
+	-webkit-transition:-webkit-transform 0.550s ease-in-out;
+	z-index:100;
+	border:none
+}
+header.page a.logo {
+	background:url(http://powercomm.ryanjb.com/images/topleftlogo.png) no-repeat scroll 0 0 transparent;
+	display:block;
+	width:280px;
+	height:30px;
+	border:none
+}
+header.page a.logo { position:relative;display:block; }
+header.page a.logo span { position:absolute;display:block;width:100%;height:100%;top:0;left:0;background:url(http://powercomm.ryanjb.com/images/topleftlogo.png) left bottom no-repeat !important }
+header.page img {
+	max-width:100%;
+	-webkit-transition:-webkit-transform 0.550s ease-in-out
+}
+h1.logo {
+	display:none
+}
+section#featured {
+	display:block;
+	margin:0 0;
+	padding:0 0;
+	min-height:100%;
+	background:#000;
+	text-align:center;
+	border-top:solid 3px #938055
+}
+section#featured img {
+	padding-top:100px
+}
+section#featured p {
+	color:#fff;
+	text-align:left;
+	padding-bottom:50px
+}
+nav {
+	position:fixed;
+	top:15px;
+	right:5px;
+	height:auto;
+	-webkit-transition:-webkit-transform 0.550s ease-in-out;
+	z-index:200;
+	border:none
+}
+nav ul {
+	float:right;
+	top:15px;
+	margin:0 30px 0px 0px;
+	list-style:none;
+	list-style-type:none
+}
+nav ul li {
+	float:left;
+	display:inline;
+	margin-right:30px
+}
+nav ul li:last-child {
+	margin-right:0px
+}
+nav a {
+	font-size:18px;
+	font-family:"CuprumFFURegular", Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-decoration:none
+}
+nav a {
+	color:#938055;
+	-webkit-transition:color 1s ease-in-out;
+	-o-transition:color 1s ease-in-out;
+	-moz-transition:color 1s ease-in-out;
+	transition:color 1s ease-in-out
+}
+nav a:hover {
+	color:#d6cfbe
+}
+section#info {
+	text-align:center;
+	display:block;
+	width:100%;
+	overflow:hidden;
+	min-height:100%
+}
+section#info .row a{
+	text-decoration:none
+	
+}
+
+section#info .row{
+	font-size:18px;
+	font-family:"CuprumFFURegular", Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	padding-bottom: 10px;
+	text-transform:uppercase
+
+}
+
+section#info .onecol{
+	padding-bottom: 10px;
+
+}
+
+section#info .row h1{
+	font-size:18px;
+	font-family:"CuprumFFURegular", Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	text-transform:uppercase
+
+}
+
+section#info .twocol strong{
+	text-align: left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-color:#666;
+	text-transform:none;
+	font-size:11px
+
+}
+
+section#info .twocol{
+	text-align: left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-color:#666;
+	text-transform:none;
+	font-size:12px
+
+}
+
+section#info .twocol a{
+	color:#938055;
+	-webkit-transition:color 1s ease-in-out;
+	-o-transition:color 1s ease-in-out;
+	-moz-transition:color 1s ease-in-out;
+	transition:color 1s ease-in-out
+}
+section#info  .twocol a:hover{
+	color:#666
+}
+
+section#family {
+	width:100%;
+	text-align:center;
+	overflow:hidden;
+	min-height:100%
+}
+section#family p {
+	text-align:center;
+}
+section#locateus {
+	width:100%;
+	text-align:center;
+	min-height:100%;
+	overflow:hidden
+}
+section#when {
+    width:100%;
+	text-align:center;
+	min-height:100%;
+	overflow:hidden
+}
+footer {
+	width:100%;
+	text-align:center;
+	overflow:hidden;
+	min-height:100%;
+	padding:20px 0 20px 0
+}
+footer p {
+	margin:4px
+}
+#digiguru {
+	text-align:center;
+	border:1px #333 solid
+}
+#digiguru a {
+	text-align:center;
+	border:3px #333 solid
+}
+label.error {
+	display:block;
+	color:red;
+	font-size:11px;
+	font-weight:bold
+}
+form#enquiry fieldset {
+	padding:10px 20px 20px 20px;
+	margin:0 auto;
+	border:0;
+	text-align:left
+}
+form#enquiry input[type="text"], input[type="url"], input[type="email"], input[type="tel"], textarea {
+	margin:3px 0 0 0;
+	padding:6px;
+	width:100%;
+	font-family:arial, sans-serif;
+	font-size:12px;
+	border:3px solid #d6cfbe;
+	background:#fff;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px
+}
+form#enquiry textarea {
+	width:100%;
+	height:82px
+}
+form#enquiry label {
+	display:block;
+	font-size:13px;
+	color:#666;
+	margin-top:10px;
+	margin-left:5px;
+	font-weight:bold
+}
+form#enquiry label.error {
+	width:100%;
+	margin:3px 0 0 0;
+	display:block;
+	color:#938055;
+	font-size:11px;
+	text-align:right
+}
+form#enquiry .placeholder {
+	color:#aaa
+}
+form#enquiry .button {
+	display:inline-block;
+	margin:5px 0 0 10px;
+	padding:5px 0 5px 0;
+	background-color:#938055;
+	border:none;
+	color:#fff;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	width:100%
+}
+form#enquiry .button:hover {
+	background-color:#82714b;
+	cursor:pointer
+}
+form#enquiry .button:active {
+	background-color:#666;
+	cursor:pointer
+}
+.html5 {
+	padding:20px 0 0 0
+}
+.up {
+	display:block;
+	width:60px;
+	height:30px;
+	margin:20px auto;
+	background:url(http://powercomm.ryanjb.com/images/up.png) 0 0 no-repeat
+}
+
+.mt {
+	display:block;
+	width:50px;
+	height:30px;
+	margin:20px auto;
+	background:url(http://powercomm.ryanjb.com/css_image/mt.png) 0 0 no-repeat
+}
+
+#info a {
+	position:relative;
+	display:block
+}
+#info a span {
+	position:absolute;
+	display:block;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:url(http://powercomm.ryanjb.com/css_image/trans.png) repeat
+}
+#info a span span {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:21px;
+	height:21px;
+	margin:-11px 0 0 -11px;
+	background:url(http://powercomm.ryanjb.com/css_image/+.png) no-repeat
+}
+
+.social img {max-width:100% -webkit-transition:-webkit-transform 0.550s ease-in-out}
+.social .twocol{padding-bottom: 20px}
+
+.social a.facebook,
+.social a.facebook span {height:26px;background:url(../img/social-facebook.png) center top no-repeat }
+.social a.twitter,
+.social a.twitter span {height:26px;background:url(../img/social-twitter.png) center top no-repeat }
+.social a.linkedin,
+.social a.linkedin span {height:30px;background:url(../img/social-linkedin.png) center top no-repeat }
+.social a.foursquare,
+.social a.foursquare span {height:32px;background:url(../img/social-foursquare.png) center top no-repeat }
+.social a.dribbble,
+.social a.dribbble span {height:32px;background:url(../img/social-dribbble.png) center top no-repeat }
+.social a.facto,
+.social a.facto span {height:29px;background:url(../img/social-facto.png) center top no-repeat }
+
+.social a { position:relative;display:block; }
+.social a span { position:absolute;display:block;width:100%;top:0;left:0;background-position:center bottom !important }
+
+.up { position:relative;display:block; }
+.up span { position:absolute;display:block;width:100%;height:100%;top:0;left:0;background:url(http://powercomm.ryanjb.com/css_image/up.png) left bottom no-repeat !important }
+
+.mt { position:relative;display:block; }
+.mt span { position:absolute;display:block;width:100%;height:100%;top:0;left:0;background:url(http://powercomm.ryanjb.com/css_image/mt.png) left bottom no-repeat !important }
+
+@media screen and (max-width:767px) {
+blockquote {
+	border:none;
+	font-style:italic
+}
+
+section#info p{
+	font-size: 16px;
+	text-align: center
+}
+
+section#info p strong{
+	font-size: 14px
+}
+
+
+form#enquiry fieldset {
+	padding:10px 20px 20px 0;
+	margin:0 auto;
+	border:0;
+	text-align:left
+}
+
+.social {
+	text-align:center
+}
+
+.multicolumn {
+	-moz-column-count:1;
+	-webkit-column-count:1
+}
+.row, .body, .container {
+	width:100%;
+	margin-left:0px;
+	margin-right:0px;
+	padding-left:0px;
+	padding-right:0px
+}
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
+	width:auto;
+	float:none;
+	margin-left:0px;
+	margin-right:0px;
+	padding-left:20px;
+	padding-right:20px
+}
+input[type="submit"] {
+    background: #938055;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-appearance: none;
+    	margin:5px 0 0 10px;
+	padding:5px 0 5px 0;
+    width:100%
+}
+
+
+body {
+	font-size:16px;
+	line-height:24px;
+	text-align:center
+}
+header.page {
+	position:relative;
+	background:#000;
+	top:auto;
+	left:auto;
+	padding:10px 0;
+	width:100%;
+	border-top:solid 3px #938055
+}
+header.page a.logo {
+	margin:0 auto
+}
+header.page img {
+	max-width:100%;
+	-webkit-transition:-webkit-transform 0.550s ease-in-out
+}
+nav {
+	position:relative;
+	background:#000;
+	top:auto;
+	right:auto;
+	width:100%;
+	padding:10px 0 0 0
+}
+nav ul {
+	float:none;
+	top:auto;
+	margin:0 auto
+}
+nav ul li {
+	float:none
+}
+section#featured {
+	border-top:none
+}
+section#featured img {
+	padding-top:20px
+}
+
+section section h1 {
+	margin-top:30px
+}
+.row {
+	max-width:100%
+}
+}
+@media only screen and (max-width:1023px) {
+}
+@media all and (orientation:portrait) {
+#landscape {
+	display:none
+}
+}
+@media all and (orientation:landscape) {
+#portrait {
+	display:none
+}
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2) {
+}
+
+a.fwa {position:fixed; z-index:999;float:top left}
