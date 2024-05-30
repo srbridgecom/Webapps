@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <!-- Moble Scale -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SRBridge, Design and Development</title>
+
+	  <!-- fonts -->
+	  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+	  <!-- Call css files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">     <!--called for scroll portfolio -->
+
+    <link rel="shortcut icon" href="images/icon.ico">
+
+    <!-- call google adsense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+       (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-6727417058781778",
+            enable_page_level_ads: true
+        });
+    </script>
+    <!-- call google adsense -->
+    
+  </head>
+
+
+
+<!-- Start Body -->
+<body  data-spy="scroll" data-target="#navbar-example">
+	<div id="work"></div>
+
+
+
+  <!-- header-section-start -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="logo">
+          <a href=""><img src="images/logo.png" alt="" /></a>
+        </div>
+        <nav class="mainmenu"  id="navbar-example">
+          <ul id="nav" class="nav nav-tabs" role="tablist">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about">WHY</a></li>
+            <li><a href="#work">MY WORK</a></li>
+            <li><a href="http://www.facebook.com/srbridge"  target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/srbridge" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- header-section-end -->
+
+
+
+
+    <!-- Top of page banner/grid -->
+
+<div class="banner3">
+      </div>
+
+<iframe width='100%' height='480px' src="grid.html"></iframe>
+<br /><br />
+
+    <!-- Top of page banner/grid -->
+
+
+
+  <!-- portfolio links banner -->
+  <br /><br /><br />
+  <section class="about section_padding" id="about">
+    <div class="container">
+      <div class="row text-center">
+        <div class="about_title col-text-center section-title wow fadeInLeft" data-wow-delay="0.3s">
+          <h1>A Sample of My Work</h1>
+          <p>I build your ideas. Provide hosting solutions for your applcations and deploy your app wherever you desire.<br />
+		All sites are deployed with the latest tech stack.<br />
+		Including SEO and Web analytics injection.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br /><br /><br /><br />
+  <!-- portfolio links banner -->
+
+  <!--  Begin portfolio grd  -->
+  
+<!-- porfolio section TrapplightUSA -->
+  <div class="container">
+    <div class="row row-centered">
+      <div class="about_title col-text-center section-title wow bounceInRight" data-wow-delay="0.3s"> <!--Animate code -->
+         <h1>Traplight USA</br>
+         </h1></br></br></br>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <a href="https://traplightusa.com/" target="_blank"><img class="img-responsive" src="images/portfolio/trapplight-350-226.jpg" title="TrappLight USA"></a>
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <a href="clients/trapplight/trapplight.htm" target="_blank"><img class="img-responsive" src="images/portfolio/trapplight-350-226-2.jpg" title="Trapplight USA - About the Build"></a>
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <a href="https://github.com/srbridgecom/2016-2020/blob/master/SRBridge.com/" target="_blank"><img class="img-responsive" src="images/portfolio/trapplight-350-226-3.jpg" title="Trapplight USA - GIT"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- portfolio section 1-->
+  
+  
+    <br /><br /><br /><br />
+  
+  
+    <!-- porfolio section Iterationlinc-crm -->
+  <div class="container">
+    <div class="row row-centered">
+      <div class="about_title col-text-center section-title wow bounceInLeft" data-wow-delay="0.3s"> <!--Animate code -->
+         <h1>Iterationlinc CRM</br>
+         </h1></br></br></br>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <a href="clients/iterationlinc-crm/icrm.htm" target="_blank"><img class="img-responsive" src="images/portfolio/ICRM-350-226.png" title="Iterationlinc.com CRM"></a>
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <a href="clients/iterationlinc-crm/icrm.htm" target="_blank"><img class="img-responsive" src="images/portfolio/ICRM-350-226-2.jpg" title="Iterationlinc.com CRM - About the Build"></a>
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <a href="clients/iterationlinc-crm/icrm.htm" target="_blank"><img class="img-responsive" src="images/portfolio/ICRM-350-226-3.jpg" title="Iterationlinc.com CRM - GIT"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- portfolio section 1--> 
+  
+     
+     <br /><br /><br /><br />
+  
+  
+  <!-- porfolio section Stache -->
+  <div class="container">
+    <div class="row row-centered">
+      <div class="about_title col-text-center section-title wow bounceInRight" data-wow-delay="0.3s"> <!--Animate code -->
+         <h1>Stache Appliance</br>
+         </h1></br></br></br>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <a href="clients/stache/stache.htm" target="_blank"><img class="img-responsive" src="images/portfolio/stache-350x226.jpg" title="Stache & Sons Appliance Repair"></a>
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <a href="clients/stache/stache.htm" target="_blank"><img class="img-responsive" src="images/portfolio/stache-350-226-2.jpg" title="Stache & Sons - About the Build"></a>
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <a href="https://github.com/srbridgecom/2016-2020/tree/master/stacheandsons" target="_blank"><img class="img-responsive" src="images/portfolio/stache-350-226-3.jpg" title="Stache & Sons - GIT"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- portfolio section 1-->
+ 
+  
+   <br /><br /><br /><br />
+  
+ 
+  <!-- porfolio section 1 -->
+  <div class="container">
+    <div class="row row-centered">
+      <div class="about_title col-text-center section-title wow bounceInLeft" data-wow-delay="0.3s"> <!--Animate code -->
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <img class="img-responsive" src="images/portfolio/powercomm.jpg" title="PowerComm Software Labs scalable web portal">
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <img class="img-responsive" src="images/portfolio/pchs.jpg" title="PCHealthStop Review Site">
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <img class="img-responsive" src="images/portfolio/hoyt.jpg" title="HoytKajuKenBo, Martial Arts">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- portfolio section 1-->
+
+
+
+  <br /><br /><br /><br />
+
+
+
+  <!-- porfolio section 2 -->
+  <div class="container">
+    <div class="row row-centered">
+      <div class="about_title col-text-center section-title wow bounceInRight" data-wow-delay="0.3s"> <!--Animate code -->
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <img class="img-responsive" src="images/portfolio/bosfire.jpg" title="Boston FireArms, E-Commerce Portal">
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <img class="img-responsive" src="images/portfolio/intell.jpg" title="Intellectus, Online Info-Pedia Site">
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <img class="img-responsive" src="images/portfolio/itlife.jpg" title="I.T.Life News Portal">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- portfolio section 2-->
+
+
+
+  <br /><br /><br /><br />
+
+
+
+  <!-- porfolio section 3 -->
+  <div class="container">
+    <div class="row row-centered">
+      <div class="about_title col-text-center section-title wow bounceInLeft" data-wow-delay="0.3s"> <!--Animate code -->
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <img class="img-responsive" src="images/portfolio/posster.jpg" title="POSSTER, Online Classified Site">
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <img class="img-responsive" src="images/portfolio/detail.jpg" title="The Deail Guyz, Mobile Auto Detailing Commerce Site">
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <img class="img-responsive" src="images/portfolio/rcon.jpg" title="R Construction Co.">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- portfolio section 3-->
+
+
+
+  <br /><br /><br /><br />
+
+
+
+  <!-- porfolio section 4 -->
+  <div class="container">
+    <div class="row row-centered">
+      <div class="about_title col-text-center section-title wow bounceInRight" data-wow-delay="0.3s">
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <img class="img-responsive" src="images/portfolio/jade.jpg" title="Jade Exotic Boutique, E-Commerce Clothing Site">
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <img class="img-responsive" src="images/portfolio/nasa.jpg" title="Nasa, Atmospheric Aerosol Sensor">
+        </div>
+        <div class="col-sm col-md col-centered"><!-- grid item-->
+          <img class="img-responsive" src="images/portfolio/aaa.jpg" title="A.A.A. I.T. Tech, Infrastructure based E-Commerce Company">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- portfolio section 4-->
+
+
+
+      <br/><br/><br/><br/><br/><br/><br/>
+
+
+
+      <!-- contact-section-start -->
+	<section class="contact section_padding" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 col-sm-12 col-text-center text-center">
+					<div class="contact_title section-title wow flipInX" data-wow-delay="0.3s">
+						<h1>CONTACT US</h1>
+					</div>
+					<div class="row">
+						<div class="col-sm-4 wow fadeInLeft" data-wow-delay="0.3s">
+							<div class="contact_icon">
+								<i class="fa fa-mobile"></i>
+								<p>949-478-4969</p>
+							</div>
+						</div>
+						<div class="col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+							<div class="contact_icon">
+								<i class="fa fa-map-marker"></i>
+								<p>VEGAS, UNITED STATES</p>
+							</div>
+						</div>
+						<div class="col-sm-4 wow fadeInRight" data-wow-delay="0.3s">
+							<div class="contact_icon">
+								<i class="fa fa-envelope-o"></i>
+								<p>support@srbridge.com</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- end content section -->
+
+
+
+<!-- contact-bottom-section-start -->
+	<section class="contact-icon contact_section_padding">
+		<div class="container">
+			<div class="row">
+				<div class="social_icon text-center">
+					<a href="http://www.facebook.com/srbridge" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.linkedin.com/company/srbridge" target="_blank"><i class="fa fa-linkedin"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- contact-bottom-section-end -->
+
+
+
+	<!-- footer-section-start -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="footer_copyright">
+					<p>&copy;2016 SRBridge, we power the web.</p>
+					<a href="#"><img src="images/logo.png" alt="" /></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer-section-end -->
+
+
+  <!-- Call JavaScript Files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  <script src="js/easyPieChart.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.scrollUp.js"></script>
+  <script src="js/counterup.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
