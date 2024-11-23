@@ -18,7 +18,7 @@
 			<div class="container">
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
-                      <p class="text-muted small mb-4 mb-lg-0">© 2023, Bridge Newz Media & Technology Group. An Iterationlinc Company. All Rights Reserved.</p>
+                      <p class="text-muted small mb-4 mb-lg-0">© 2024, Bridge Newz Media & Technology Group. An Iterationlinc Company. All Rights Reserved.</p>
                     </div>
                     <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
                         <ul class="list-inline mb-0">
