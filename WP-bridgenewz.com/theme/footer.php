@@ -6,7 +6,7 @@
  *
  * @package WordPress
  * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
+ * @bridgenewz.com srbridge.com iterationlinc.com
  */
 ?>
 
@@ -15,21 +15,23 @@
 		<footer id="colophon" class="site-footer">
 
 			<?php get_sidebar( 'footer' ); ?>
-
-			<div class="site-info">
-				<?php do_action( 'twentyfourteen_credits' ); ?>
-				<?php
-				if ( function_exists( 'the_privacy_policy_link' ) ) {
-					the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
-				}
-				?>
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfourteen' ) ); ?>" class="imprint">
-					<?php
-					/* translators: %s: WordPress */
-					printf( __( 'Proudly powered by %s', 'twentyfourteen' ), 'WordPress' );
-					?>
-				</a>
-			</div><!-- .site-info -->
+			<div class="container">
+                <div class="row">
+                    <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+                      <p class="text-muted small mb-4 mb-lg-0">© 2023, Bridge Newz Media & Technology Group. An Iterationlinc Company. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item me-4">
+                                <a href="https://www.linkedin.com/" target="_blank"><i class="bi-linkedin fs-3"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+			
+			
+			
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
 
