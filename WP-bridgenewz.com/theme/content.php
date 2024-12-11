@@ -45,7 +45,8 @@
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
-	<?php if ( is_search() ) : ?>		<?php the_excerpt(); ?>
+<?php if ( is_home() || is_front_page() || is_archive() || is_search() ) : ?>	<div class="entry-summary">
+				<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
