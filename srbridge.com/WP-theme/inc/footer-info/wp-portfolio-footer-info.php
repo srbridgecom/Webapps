@@ -27,15 +27,6 @@
 	   return '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '" ><span>' . get_bloginfo( 'name', 'display' ) . '</span></a>';
 	}
 	/**
-	 * To display a link to WordPress.org
-	 *
-	 * @return string
-	 */
-	function wp_portfolio_wp_link() {
-	   return __('Proudly Powered by: ', 'wp-portfolio') .'<a href="'.esc_url( 'http://wordpress.org','wp-portfolio' ).'" target="_blank" rel="noopener noreferrer" title="' . sprintf( __( '%s', 'wp-portfolio' ), 'WordPress'). '"><span>' . sprintf( __( '%s', 'wp-portfolio' ), 'WordPress') . '</span></a>';
-	}
-
-	/**
 	 * To display a link to privacy policy.
 	 *
 	 * @return string
