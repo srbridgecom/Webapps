@@ -2,7 +2,7 @@
 /**
  * Contains all the current date, year of the theme.
  *
- * @package Theme Horse
+ * @package srbridge
  * @subpackage WP_Portfolio
  * @since WP_Portfolio 1.0
  */
@@ -33,14 +33,6 @@
 	 */
 	function wp_portfolio_wp_link() {
 	   return __('Proudly Powered by: ', 'wp-portfolio') .'<a href="'.esc_url( 'http://wordpress.org','wp-portfolio' ).'" target="_blank" rel="noopener noreferrer" title="' . sprintf( __( '%s', 'wp-portfolio' ), 'WordPress'). '"><span>' . sprintf( __( '%s', 'wp-portfolio' ), 'WordPress') . '</span></a>';
-	}
-	/**
-	 * To display a link to themehorse.com
-	 *
-	 * @return string
-	 */
-	function wp_portfolio_themehorse_link() {
-	   return __('Theme by: ', 'wp-portfolio') .'<a href="'.esc_url( 'http://themehorse.com','wp-portfolio' ).'" target="_blank" rel="noopener noreferrer" title="' . sprintf( __( '%s', 'wp-portfolio' ), 'Theme Horse').'" ><span>'.sprintf( __( '%s', 'wp-portfolio' ), 'Theme Horse') .'</span></a>';
 	}
 
 	/**
