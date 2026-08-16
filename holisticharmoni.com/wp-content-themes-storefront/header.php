@@ -154,7 +154,7 @@
         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px;
             height: 500px; overflow: hidden;">
             <div>
-                <img u="image" src="../img/1920/red.jpg" />
+                <img u="image" src="https://holisticharmoni.com/wp-content/uploads/2026/08/header_yoga_1920.webp" />
                 <div u="caption" t="NO" t3="RTT|2" r3="137.5%" du3="3000" d3="500" style="position: absolute; width: 445px; height: 300px; top: 100px; left: 600px;">
                     <img src="../img/new-site/c-phone.png" style="position: absolute; width: 445px; height: 300px; top: 0px; left: 0px;" />
                     <img u="caption" t="CLIP|LR" du="4000" t2="NO" src="../img/new-site/c-jssor-slider.png" style="position: absolute; width: 102px; height: 78px; top: 70px; left: 130px;" />
@@ -171,36 +171,41 @@
                 </div>
                 <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                        color: #FFFFFF;">Touch Swipe Slider
+                        color: #FFFFFF;">Welcome
                 </div>
                 <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px;
                     text-align: left; line-height: 36px; font-size: 30px;
-                        color: #FFFFFF;">
-                        Build your slider with anything, includes image, content, text, html, photo, picture
+                        color: #FFFFFF;">Approach to health, whole person, physical, mental,
+					emotional, social, and spiritual aspects.<br>
+					Overall well being.
                 </div>
             </div>
             <div>
-                <img u="image" src="../img/1920/purple.jpg" />
+				<!-- START IMAGE 2 -->
+                <img u="image" src="https://holisticharmoni.com/wp-content/uploads/2026/08/header2-yoga.webp" />
                 <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                        color: #FFFFFF;">Touch Swipe Slider
-                </div>
+                        color: #FFFFFF;">Align Your Chakras
+				</div>
                 <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px;
                     text-align: left; line-height: 36px; font-size: 30px;
-                        color: #FFFFFF;">
-                        Build your slider with anything, includes image, content, text, html, photo, picture
+                        color: #FFFFFF;">MIND, BODY & SOUL
+                        
                 </div>
             </div>
             <div>
-                <img u="image" src="../img/1920/blue.jpg" />
+				<!-- START IMAGE 3 -->
+                <img u="image" src="https://holisticharmoni.com/wp-content/uploads/2026/08/treeoflife.webp" />
                 <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                        color: #FFFFFF;">Touch Swipe Slider
+                        color: #FFFFFF;">Tree Of Life
                 </div>
                 <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px;
                     text-align: left; line-height: 36px; font-size: 30px;
-                        color: #FFFFFF;">
-                        Build your slider with anything, includes image, content, text, html, photo, picture
+                        color: #FFFFFF;">Ancient tree, natural strength,<br>
+					healing energy, timeless beauty,<br>
+					rooted wellness, earth‑powered growth.
+                        
                 </div>
             </div>
         </div>
