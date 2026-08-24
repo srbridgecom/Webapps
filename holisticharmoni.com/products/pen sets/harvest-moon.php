@@ -10,8 +10,10 @@ Size CM,               16x1.86
 Size IN,                 6.29x.73
 Type,                     Injector - Peptide Pen
 Use,                       Reusable
-Contains,            Start Button, Adjustable Dial Gauge, Hand Grasp/Handle
-Note,                     This is the main pen body only, cartridge and needle required; sold separately 
+Contains,            Set Includes: 3 Pens and 3 - 3M Vial Cartridges,
+                                Start Button, Adjustable Dial Gauge, Hand Grasp/Handle
+Note,                     This is the main pen body and 3M Vial - cartridges INCLUDED
+                                 needle required; sold separately
 
 
 
@@ -27,8 +29,7 @@ Harvest Moon Collection Includes:
 1 Olive Green Reusable Pen
 1 Orange Reusable Pen
 1 Gold Reusable Pen
-
-
+3 3M Vial, Sterile/Sealed Cartridges
 Sleek Metallic Finish
 Reusable Design
 Lightweight and easy to store
