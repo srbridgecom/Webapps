@@ -1,0 +1,22 @@
+html::before {
+  content: 'CodePen ♥ The Web';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  font-family: monospace;
+  opacity: 0.6;
+  background: rebeccapurple;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.ImageContainer {
+       max-width: auto;
+       height:525px; 
+       background-image: url("https://toadspens.com/wp-content/uploads/2026/08/footer2.png");
+
+}
