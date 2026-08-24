@@ -15,7 +15,7 @@ html::before {
 }
 
 .ImageContainer {
-       max-width: auto;
+       max-width: 100%;
        height: 525px; 
        background-image: url("https://toadspens.com/wp-content/uploads/2026/08/footer2.png");
 
